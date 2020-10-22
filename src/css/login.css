@@ -1,0 +1,280 @@
+.login-all{
+    width: 1000px;
+    margin: 0 auto;
+}
+.login-sec{
+    width: 360px;
+    border-radius: 2px;
+    background-color: #fff;
+    float: right;
+    margin-top: 50px;
+}
+
+/* 登录头 */
+.login-head{
+    width: 360px;
+    height: 50px;
+    border-bottom: 1px solid #e0e0e0 ;
+}
+.login-skin,.login-user{
+    height: 50px;
+    width: 180px;
+    line-height: 50px;
+    float: left;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    color: #666;
+    cursor: pointer;
+}
+.login-user{
+    height: 50px;
+    width: 180px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    float: right;
+    cursor: pointer;
+}
+.skin-img img{
+    width: 150px;
+    height: 150px;
+    padding: 10px;
+    border: 1px solid #f0f0f0;
+    margin-top: 10px;
+}
+.login-img{
+    width: 360px;
+    height: 192px;
+}
+.skin-img{
+    width: 170px;
+    height: 170px;
+    margin: 0 auto;
+}
+
+/* 提示信息 */
+.login-tips{
+    width: 360px;
+    text-align: center;
+    font-size: 12px;
+    color: #333;
+    line-height: 16px;
+    margin-bottom: 30px;
+}
+.login-tips .tip-img{
+    display: inline-block;
+    background: url(../img/sprites-hash.png);
+    background-position: -605px -121px;
+    width: 16px;
+    height: 16px;
+    position: relative;top: 4px;
+}
+/* 微信图标 */
+.wechat-sec{
+    width: 300px;
+    height: 1px;
+    margin: 0 auto;
+    border-top: 1px solid #e0e0e0 ;
+    margin-bottom: 30px;
+}
+.wechat-sec .wechat-pic{
+    display: inline-block;
+    position: relative;top: -20px;left: 130px;
+    width: 40px;
+    height: 40px;
+    background: url(../img/sprites-hash.png);
+    background-position: -580px -161px;
+    z-index: 3;
+}
+
+/* 登录页面底部 */
+.login-footer{
+    width: 300px;
+    margin: 0 auto;
+    font-size: 12px;
+    position: relative;
+    height: 24px;
+}
+.login-footer ul li{
+    float: left;
+    line-height: 24px;
+    margin-bottom: 20px;
+}
+.login-footer .login-xin{
+    color: #999;
+    height: 24px;
+    display: inline-block;
+    padding: 0 8px 2px 8px ;
+}
+.login-footer .login-qq{
+    color: #333;
+    height: 24px;
+    padding: 0 8px 2px 8px ;
+}
+.login-footer .login-zfb{
+    color: #333;
+    height: 24px;
+    padding: 0 8px 2px 8px ;
+}
+.login-footer span{
+    color: #e0e0e0;
+}
+.login-footer .login-more{
+    color: #666;
+    height: 24px;
+    position: absolute;right: 85px;top: 4px;
+}
+.login-more-logo{
+    position: relative;
+    top: 1px;
+    left: 3px;
+}
+.login-footer .login-re{
+    position: absolute;right: 2px;top: -1px;
+    z-index: 2;
+    color: #333;
+    line-height: 24px;
+    font-size: 14px;
+}
+
+/* 登录方法跳转 */
+.account-sec,.skin-sec{
+    width: 360px;
+    display: none;
+}
+.user-sec,.psd-sec,.login-btn{
+    margin-right: 30px;
+    margin-left: 30px;
+}
+/* 输入手机号 */
+.user-sec{
+    width: 300px;
+    position: relative;
+    height: 69px;
+    margin-top: 30px;
+}
+.user-sec .user-main{
+    width: 300px;
+    height: 46px;
+    border: 1px solid #b2b2b2;
+    position: relative;
+    border-radius: 3px;
+}
+.user-sec .user-main .user{
+    padding-left: 40px;
+    width: 260px;
+    height: 33px;
+    line-height: 33px;
+    margin-top: 8px;
+    outline: none;
+    border: none;
+}
+.user-sec .user-tip{
+    width: 300px;
+    height: 19px;
+    line-height: 19px;
+    font-size: 12px;
+    color: #ec5042;
+    position: relative;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    display: none;
+}
+.user-main .user-pic{
+    background-image: url("../img/sprites-hash.png");
+    background-position: -456px -221px;
+    width: 20px;
+    height: 20px;
+    position: absolute;top: 13px;left: 11px;
+}
+.input-rig1, .input-rig3{
+    position: absolute;
+    right: 1px;
+    top: 3px;
+    z-index: 3;
+    padding-right: 10px;
+    padding-left: 5px;
+    line-height: 44px;
+    font-size: 17px;
+    display: none;
+}
+.input-err1,.input-err3 {
+    position: absolute;
+    right: 1px;
+    top: 3px;
+    z-index: 3;
+    padding-right: 10px;
+    padding-left: 5px;
+    line-height: 44px;
+    font-size: 17px;
+    display: none;
+}
+
+/* 输入密码 */
+.psd-sec{
+    width: 300px;
+    position: relative;
+    height: 69px;
+}
+.psd-sec .psd-main{
+    width: 300px;
+    height: 46px;
+    border: 1px solid #b2b2b2;
+    position: relative;
+    border-radius: 3px;
+}
+.psd-sec .psd-main .psd{
+    padding-left: 40px;
+    width: 260px;
+    height: 33px;
+    line-height: 33px;
+    margin-top: 8px;
+    outline: none;
+    border: none;
+}
+.psd-sec .psd-tip{
+    width: 300px;
+    height: 19px;
+    line-height: 19px;
+    font-size: 12px;
+    color: #ec5042;
+    position: relative;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    display: none;
+}
+.psd-main .psd-pic{
+    background-image: url("../img/sprites-hash.png");
+    background-position: -528px -221px;
+    width: 20px;
+    height: 20px;
+    position: absolute;top: 13px;left: 11px;
+}
+
+/* 登录按钮 */
+.login-btn{
+    border: 1px solid #d80173;
+    outline: none;
+    width: 298px;
+    height: 40px;
+    background-color: #d80173;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    line-height: 40px;
+    margin-bottom: 40px;
+    cursor: pointer;
+}
+
+.login-sec .active{
+    display: block;
+}
+.login-sec .on{
+    color: #d80173;
+}
+
+
+
+

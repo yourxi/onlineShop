@@ -1,0 +1,161 @@
+.cart_head {
+  height: 80px;
+  position: relative;
+}
+
+.cart_head > .cart_img {
+  float: left;
+  height: 48px;
+  padding: 16px 0 12px;
+}
+
+.cart_head > .cart_list {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+}
+
+.cart_head > .cart_list li {
+  float: left;
+}
+
+.cart_head > .cart_list li span {
+  display: inline-block;
+}
+
+.cart_head > .cart_list li:nth-child(1) span:nth-child(1) {
+  background-image: url(../img/sprites-2.png);
+  background-position: -587px -145px;
+  width: 20px;
+  height: 20px;
+}
+
+.cart_head > .cart_list li:nth-child(1) span:nth-child(2) {
+  display: inline-block;
+  vertical-align: top;
+  line-height: 20px;
+  margin-right: 10px;
+}
+
+.cart_head > .cart_list li:nth-child(2) span:nth-child(1) {
+  background-image: url(../img/sprites-2.png);
+  background-position: -432px -253px;
+  width: 20px;
+  height: 20px;
+}
+
+.cart_head > .cart_list li:nth-child(2) span:nth-child(2) {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 10px;
+  line-height: 20px;
+}
+
+.cart_head > .cart_list li:nth-child(3) span:nth-child(1) {
+  background-image: url(../img/sprites-2.png);
+  background-position: -587px -169px;
+  width: 20px;
+  height: 20px;
+}
+
+.cart_head > .cart_list li:nth-child(3) span:nth-child(2) {
+  display: inline-block;
+  vertical-align: top;
+  line-height: 20px;
+}
+
+.line {
+  width: 100%;
+  height: 1px;
+  border-bottom: 2px solid #f3168a;
+  margin-bottom: 30px;
+}
+
+.shops .shops_all {
+  color: #f10180;
+  width: 84px;
+  height: 54px;
+  text-align: center;
+  line-height: 54px;
+  font-size: 16px;
+  font-weight: bold;
+  position: relative;
+}
+
+.shops .shops_all .little {
+  display: inline-block;
+  position: absolute;
+  bottom: -1px;
+  left: 1px;
+  border-bottom: 3px solid #f10180;
+  width: 84px;
+  height: 1px;
+}
+
+.shops .shops_line {
+  border-bottom: 1px solid #d0d0d0;
+}
+
+.shops .shops_information {
+  min-height: 400px;
+  margin-left: 60px;
+}
+
+.shops .shops_information table {
+  display: none;
+}
+
+.shops .shops_information table .info_head .info_head_tr {
+  display: inline-block;
+  height: 60px;
+  line-height: 60px;
+}
+
+.shops .shops_information table .info_head .info_head_tr th {
+  display: inline-block;
+  width: 120px;
+  text-align: center;
+  color: #333;
+}
+
+.shops .shops_information table .info_body tr {
+  display: inline-block;
+  padding-bottom: 10px;
+}
+
+.shops .shops_information table .info_body tr td {
+  display: inline-block;
+  width: 120px;
+  text-align: center;
+  color: #333;
+  font-size: 14px;
+  height: 50px;
+  line-height: 50px;
+}
+
+.shops .shops_information table .info_body tr td span {
+  display: inline-block;
+  width: 40px;
+  height: 50px;
+  line-height: 50px;
+}
+
+.shops .shops_information table .info_body tr td .add, .shops .shops_information table .info_body tr td .jian {
+  cursor: pointer;
+}
+
+.shops .shops_information table .info_body tr .del {
+  cursor: pointer;
+}
+
+.shops .shops_information img {
+  width: 50px;
+  height: 50px;
+}
+
+.shops .shops_information span {
+  float: left;
+  width: 24px;
+  height: 24px;
+  line-height: 24px;
+}

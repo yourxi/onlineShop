@@ -1,0 +1,730 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>首页</title>
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../font/iconfont.css">
+    <!-- 1.首先加载插件，需要用到的文件有swiper-bundle.min.js和swiper-bundle.min.css文件 -->
+    <link rel="stylesheet" href="../lib/swiper/swiper.css">
+</head>
+<body>
+    <div class="header main">
+        <ul class="clearfix">
+            <li class="address"><a href="javascript:;">深圳市 <i class="iconfont">&#xe7b1;</i></a></li>
+            <li><a href="http://localhost/onlineShop/src/pages/login.html">请登录</a><span>/</span></li>
+            <li><a href="http://localhost/onlineShop/src/pages/register.html">注册</a><span>/</span></li>
+            <li><a href="javascript:;" class="gift"><img src="../img/header_sign-hash.gif" class="gift"/> 签到有礼</a><span>/</span></li>
+            <li><a href="javascript:;">我的订单</a><span>/</span></li>
+            <li><a href="javascript:;">我的特卖<i class="iconfont">&#xe7b1;</i></a><span>/</span></li>
+            <li><a href="javascript:;">会员俱乐部<i class="iconfont">&#xe7b1;</i></a><span>/</span></li>
+            <li><a href="javascript:;">客户服务<i class="iconfont">&#xe7b1;</i></a><span>/</span></li>
+            <li><a href="javascript:;"><i class="iconfont">&#xe607;</i>手机版</a><span>/</span></li>
+            <li><a href="javascript:;">更多<i class="iconfont">&#xe7b1;</i></a></li>
+        </ul>
+    </div>
+    <!-- 头部 -->
+
+    <div class="head main">
+        <img src="../img/logo.png" alt="">
+        <img src="../img/tips01.jpg" alt="">
+        <div class="search">
+            <div class="search-box">
+                <input type="text" placeholder="时尚爆款">
+                <p class=""><span class=""></span></p>
+            </div>
+            <div class="words">
+                <a href="javascript:;">护肤套装</a><a href="javascript:;">女靴</a><a href="javascript:;">女式风衣</a><a href="javascript:;">女休闲鞋</a><a href="javascript:;">男式夹克</a>
+            </div>
+            <div class="search-res">
+
+            </div>
+        </div>
+        <div class="shop-car">
+            <div class="car"><a href="javascript:;"><i class="iconfont">&#xe603;</i>购物袋<span>0</span><i class="car-count"></i></a></div>
+            
+            <div>
+
+            </div>
+        </div>
+    </div>
+    <!-- logo 搜索导航 -->
+
+    <div class="head-nav">
+        <div class="product-nav">
+            <ul class="main-category clearfix">
+                <li class="nav-category"><a href="#"><i class="iconfont">&#xe64f;</i> 商品分类</a></li>
+                <div class="nav-tips">
+                    <ul>
+                        <li><a href="javascript:;">女装/男装/内衣</a></li>
+                        <li><a href="javascript:;">女鞋/男鞋/箱包</a></li>
+                        <li><a href="javascript:;">护肤彩妆/个护</a></li>
+                        <li><a href="javascript:;">运动户外</a></li>
+                        <li><a href="javascript:;">家电数码</a></li>
+                        <li><a href="javascript:;">母婴童装</a></li>
+                        <li><a href="javascript:;">手表配饰</a></li>
+                        <li><a href="javascript:;">居家用品</a></li>
+                        <li><a href="javascript:;">唯品生活</a></li>
+                        <li><a href="javascript:;">唯品国际/唯品奢</a></li>
+                        <li class="nav-tips-last"><a href="javascript:;">医药健康</a></li>
+                    </ul>
+                </div>
+                <li><a href="javascript:;" class="nav-fashion">首页</a></li>
+                <li><a href="javascript:;">最后疯抢</a></li>
+                <li><a href="javascript:;">唯品快抢</a></li>
+                <li><a href="javascript:;">品牌清仓</a></li>
+                <li><a href="javascript:;">女装</a></li>
+                <li><a href="javascript:;">母婴</a></li>
+                <li><a href="javascript:;">家电</a></li>
+                <li><a href="javascript:;">国际</a></li>
+                <li><a href="javascript:;">美妆</a></li>
+                <li><a href="javascript:;">鞋包</a></li>
+                <li><a href="javascript:;">男装</a></li>
+                <li class="more-wrap">
+                    <a href="javascript:;">更多 <i class="iconfont">&#xe65c;</i></a>
+                    <div class="one">
+                        <i href="javascript:;">运动</i>
+                        <i href="javascript:;">家居</i>
+                        <i href="javascript:;">生活</i>
+                        <i href="javascript:;">配饰</i>
+                        <i href="javascript:;">唯品·奢</i>
+                        <i href="javascript:;">扶贫</i>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- 商品分类导航 -->
+
+    <div class="plugin">
+        <!-- 2.HTML内容 -->
+        <div class="swiper-container main">
+            <!-- <div class="back-img">
+                <img src="../img/back_img.jpg" alt="">
+            </div> -->
+            <div class="swiper-wrapper ">
+                <div class="swiper-slide">
+                    <img src="../img/tonglan01.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="../img/tonglan02.jpg" alt="">
+                </div>
+            </div>
+            <!-- 如果需要分页器 -->
+            <div class="swiper-pagination"></div>
+            
+            <!-- 如果需要导航按钮 -->
+            <!-- <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div> -->
+
+            <!-- 如果需要滚动条 -->
+            <!-- <div class="swiper-scrollbar"></div> -->
+        </div>
+    </div>
+    <!-- 顶部通栏 -->
+
+    <div class="right-nav">
+        <ul>
+            <li class="zhanghao">
+                <a href="javascript:;"><i class="iconfont" style="font-size: 25px;">&#xe631;</i>账号</a>
+                <p class="bar-lar">请登录</p>
+            </li>
+            <li class="gouwudai">
+                <a href="javascript:;"><i class="iconfont" style="font-size: 26px;">&#xe696;</i></a><a href="#" class="cart">购物袋<span>0</span></a>
+            </li>
+            <li class="youhuiquan">
+                <a href="javascript:;"><i class="iconfont" style="font-size: 22px;">&#xe652;</i></a>
+                <p class="bar bar-a">我的优惠券</p>
+            </li>
+            <li class="shuocang">
+                <a href="javascript:;"><i class="iconfont" style="font-size: 22px;">&#xe602;</i></a>
+                <p class="bar bar-b">品牌收藏</p>
+            </li>
+            <li class="xihuan">
+                <a href="javascript:;"><i class="iconfont" style="font-size: 22px;">&#xe604;</i></a>
+                <p class="bar bar-c">商店收藏</p>
+            </li>
+            <li class="zuji">
+                <a href="javascript:;"><i class="iconfont" style="font-size: 22px;">&#xe6d0;</i></a>
+                <p class="bar bar-d">我的足迹</p>
+            </li>
+            <li class="fankui">
+                <a href="javascript:;"><i class="iconfont" style="font-size: 22px;">&#xe664;</i></a>
+                <p class="bar bar-e">会员反馈</p>
+            </li>
+            <li class="fanhui">
+                <a href="javascript:;"><i class="iconfont" style="font-size: 22px;">&#xe632;</i></a>
+                <p class="bar bar-f">返回顶部</p>
+            </li>
+        </ul>
+    </div>
+    <!-- 右边固定导航 -->
+
+    <div class="onsale">
+        <a href="javascript:;"><img src="../img/onsale01.jpg" alt="" class="onsale01"></a>
+        <a href="javascript:;"><img src="../img/onsale02.jpg" alt="" class="onsale02"></a>
+        <a href="javascript:;"><img src="../img/onsale03.jpg" alt="" class="onsale03"></a>
+        <a href="javascript:;"><img src="../img/onsale04.jpg" alt="" class="onsale04"></a>
+    </div>
+    <!-- 大牌特价 -->
+
+    <div class="day-look clearfix">
+        <img src="../img/daylook01.jpg" alt="" class="daylook01">
+        <div class="daylook-left-all clearfix">
+            <div class="daylook-left clearfix">
+                <img src="../img/daylook02.png" alt="" class="daylook02">
+                <div class="daylook-left-1">     
+                    <img src="../img/daylook03.png" alt="" class="daylook03">
+                    <img src="../img/daylook04.png" alt="" class="daylook04">
+                    <img src="../img/daylook05.png" alt="" class="daylook05">
+                    <span class="style-count-1">共2123款</span>
+                    <img src="../img/daylook06.png" alt="" class="daylook06">
+                    <span class="temaijia-1">特卖价</span>
+                    <span class="left-price-1">￥66</span>
+                </div>
+                <div class="daylook-left-2">     
+                    <img src="../img/daylook03.png" alt="" class="daylook03">
+                    <img src="../img/daylook04.png" alt="" class="daylook04">
+                    <img src="../img/daylook05.png" alt="" class="daylook05">
+                    <span class="style-count-1">共2123款</span>
+                    <img src="../img/daylook06.png" alt="" class="daylook06">
+                    <span class="temaijia-1">特卖价</span>
+                    <span class="left-price-1">￥66</span>
+                </div>
+                <div class="daylook-left-3">     
+                    <img src="../img/daylook03.png" alt="" class="daylook03">
+                    <img src="../img/daylook04.png" alt="" class="daylook04">
+                    <img src="../img/daylook05.png" alt="" class="daylook05">
+                    <span class="style-count-1">共2123款</span>
+                    <img src="../img/daylook06.png" alt="" class="daylook06">
+                    <span class="temaijia-1">特卖价</span>
+                    <span class="left-price-1">￥66</span>
+                </div>
+            </div>            
+        </div>
+        <div class="daylook-right-all clearfix">
+            <div class="daylook-right">
+                <img src="../img/daylook-right.png" alt="" class="daylook02">
+                <div class="daylook-right-1">     
+                    <img src="../img/daylook03.png" alt="" class="daylook03">
+                    <img src="../img/daylook04.png" alt="" class="daylook04">
+                    <img src="../img/daylook05.png" alt="" class="daylook05">
+                    <span class="style-count-1">共2123款</span>
+                    <img src="../img/daylook06.png" alt="" class="daylook06">
+                    <span class="temaijia-1">特卖价</span>
+                    <span class="left-price-1">￥66</span>
+                </div>
+                <div class="daylook-right-2">     
+                    <img src="../img/daylook03.png" alt="" class="daylook03">
+                    <img src="../img/daylook04.png" alt="" class="daylook04">
+                    <img src="../img/daylook05.png" alt="" class="daylook05">
+                    <span class="style-count-1">共2123款</span>
+                    <img src="../img/daylook06.png" alt="" class="daylook06">
+                    <span class="temaijia-1">特卖价</span>
+                    <span class="left-price-1">￥66</span>
+                </div>
+                <div class="daylook-right-3">     
+                    <img src="../img/daylook03.png" alt="" class="daylook03">
+                    <img src="../img/daylook04.png" alt="" class="daylook04">
+                    <img src="../img/daylook05.png" alt="" class="daylook05">
+                    <span class="style-count-1">共2123款</span>
+                    <img src="../img/daylook06.png" alt="" class="daylook06">
+                    <span class="temaijia-1">特卖价</span>
+                    <span class="left-price-1">￥66</span>
+                </div>
+            </div>
+        </div>        
+    </div>
+    <!-- 每日必看 -->
+
+    <div class="day_new">
+        <img src="../img/today_DDp.png" alt="" class="today_DDp" id="today_DDp">
+
+        <div class="woman_sec" id="woman_sec">
+            <div class="woman_sec-tip">
+                <img src="../img/woman_2ad.png" alt="" class="woman_2ad">
+                <a href="javascript:;" class="woman_sec_nav">全部女装品牌 <span class="iconfont">&#xe62f;</span></a>
+            </div>
+            
+            <div class="woman_01 class_fix">
+                <a href="javascript:;">
+                    <img src="../img/woman01.jpg" alt="" class="woman01">
+                    <div class="woman_01_tip">
+                        <span class="woman_01_tip01">
+                            JZ男女装-最后疯抢
+                        </span>
+                        <div class="woman_01_tip02">
+                            <span class="woman_01_num">3</span><span class="woman_01_words">折封顶</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="woman_01">
+                <a href="javascript:;">
+                    <img src="../img/woman01.jpg" alt="" class="woman01">
+                    <div class="woman_01_tip">
+                        <span class="woman_01_tip01">
+                            JZ男女装-最后疯抢
+                        </span>
+                        <div class="woman_01_tip02">
+                            <span class="woman_01_num">3</span><span class="woman_01_words">折封顶</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <input type="button" class="sec_more" value="逛更多女装品牌" id="woman_more">
+        </div>
+        <!-- 女装品牌 -->
+
+        <div class="package_sec" id="package_sec">
+            <div class="package_sec-tip">
+                <img src="../img/package.png" alt="" class="package">
+                <a href="#" class="package_sec_nav">全部鞋包品牌  <span class="iconfont">&#xe62f;</span></a>
+            </div>
+            
+            <div class="package_01 class_fix">
+                <img src="../img/package01.jpg" alt="" class="package01">
+                <div class="package_01_tip">
+                    <a href="javascript:;">
+                        <span class="package_01_tip01">
+                            天美意teenmix男女鞋包-最后疯抢
+                        </span>
+                        <div class="package_01_tip02">
+                            <span class="woman_01_num">3</span><span class="woman_01_words">折封顶</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="package_01">
+                <img src="../img/package01.jpg" alt="" class="package01">
+                <div class="package_01_tip">
+                    <a href="javascript:;">
+                        <span class="package_01_tip01">
+                            天美意teenmix男女鞋包-最后疯抢
+                        </span>
+                        <div class="package_01_tip02">
+                            <span class="woman_01_num">3</span><span class="woman_01_words">折封顶</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <input type="button" class="sec_more" value="逛更多鞋包品牌" id="pack_more">
+        </div>
+        <!-- 鞋包品牌 -->
+
+        <div class="package_sec" id="man_sec">
+            <div class="package_sec-tip">
+                <img src="../img/men.png" alt="" class="man_img">
+                <a href="javascript:;" class="package_sec_nav">全部男装品牌  <span class="iconfont">&#xe62f;</span></a>
+            </div>
+            
+            <div class="package_01 class_fix">
+                <img src="../img/package01.jpg" alt="" class="package01">
+                <div class="package_01_tip">
+                    <a href="javascript:;">
+                        <span class="package_01_tip01">
+                            天美意teenmix男女鞋包-最后疯抢
+                        </span>
+                        <div class="package_01_tip02">
+                            <span class="woman_01_num">3</span><span class="woman_01_words">折封顶</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="package_01">
+                <img src="../img/package01.jpg" alt="" class="package01">
+                <div class="package_01_tip">
+                    <a href="javascript:;">
+                        <span class="package_01_tip01">
+                            天美意teenmix男女鞋包-最后疯抢
+                        </span>
+                        <div class="package_01_tip02">
+                            <span class="woman_01_num">3</span><span class="woman_01_words">折封顶</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <input type="button" class="sec_more" value="逛更多男装品牌" id="man_more">
+        </div>
+        <!-- 男装品牌 -->
+
+        <div class="package_sec" id="sport_sec">
+            <div class="package_sec-tip">
+                <img src="../img/sport.png" alt="" class="sport_img">
+                <a href="javascript:;" class="package_sec_nav">全部运动品牌  <span class="iconfont">&#xe62f;</span></a>
+            </div>
+            
+            <div class="package_01 class_fix">
+                <img src="../img/package01.jpg" alt="" class="package01">
+                <div class="package_01_tip">
+                    <a href="javascript:;">
+                        <span class="package_01_tip01">
+                            天美意teenmix男女鞋包-最后疯抢
+                        </span>
+                        <div class="package_01_tip02">
+                            <span class="woman_01_num">3</span><span class="woman_01_words">折封顶</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="package_01">
+                <img src="../img/package01.jpg" alt="" class="package01">
+                <div class="package_01_tip">
+                    <a href="javascript:;">
+                        <span class="package_01_tip01">
+                            天美意teenmix男女鞋包-最后疯抢
+                        </span>
+                        <div class="package_01_tip02">
+                            <span class="woman_01_num">3</span><span class="woman_01_words">折封顶</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <input type="button" class="sec_more" value="逛更多运动品牌" id="sport_more">
+        </div>
+        <!-- 运动品牌 -->
+
+        <div class="package_sec" id="watch_sec">
+            <div class="package_sec-tip">
+                <img src="../img/watch.png" alt="" class="watch_img">
+                <a href="javascript:;" class="package_sec_nav">全部饰品品牌  <span class="iconfont">&#xe62f;</span></a>
+            </div>
+            
+            <div class="package_01 class_fix">
+                <img src="../img/package01.jpg" alt="" class="package01">
+                <div class="package_01_tip">
+                    <a href="javascript:;">
+                        <span class="package_01_tip01">
+                            天美意teenmix男女鞋包-最后疯抢
+                        </span>
+                        <div class="package_01_tip02">
+                            <span class="woman_01_num">3</span><span class="woman_01_words">折封顶</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="package_01">
+                <img src="../img/package01.jpg" alt="" class="package01">
+                <div class="package_01_tip">
+                    <a href="javascript:;">
+                        <span class="package_01_tip01">
+                            天美意teenmix男女鞋包-最后疯抢
+                        </span>
+                        <div class="package_01_tip02">
+                            <span class="woman_01_num">3</span><span class="woman_01_words">折封顶</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <input type="button" class="sec_more" value="逛更多饰品品牌" id="watch_more">
+        </div>
+        <!-- 饰品品牌 -->
+
+        <div class="package_sec" id="beauty_sec">
+            <div class="package_sec-tip">
+                <img src="../img/beauty.png" alt="" class="beauty_img">
+                <a href="javascript:;" class="package_sec_nav">全部美装品牌  <span class="iconfont">&#xe62f;</span></a>
+            </div>
+            
+            <div class="package_01 class_fix">
+                <img src="../img/package01.jpg" alt="" class="package01">
+                <div class="package_01_tip">
+                    <a href="javascript:;">
+                        <span class="package_01_tip01">
+                            天美意teenmix男女鞋包-最后疯抢
+                        </span>
+                        <div class="package_01_tip02">
+                            <span class="woman_01_num">3</span><span class="woman_01_words">折封顶</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="package_01">
+                <img src="../img/package01.jpg" alt="" class="package01">
+                <div class="package_01_tip">
+                    <a href="javascript:;">
+                        <span class="package_01_tip01">
+                            天美意teenmix男女鞋包-最后疯抢
+                        </span>
+                        <div class="package_01_tip02">
+                            <span class="woman_01_num">3</span><span class="woman_01_words">折封顶</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <input type="button" class="sec_more" value="逛更多美妆品牌" id="beauty_more">
+        </div>
+        <!-- 美妆品牌 -->
+
+        <div class="package_sec" id="kid_sec">
+            <div class="package_sec-tip">
+                <img src="../img/kid.png" alt="" class="kid_img">
+                <a href="javascript:;" class="package_sec_nav">全部母婴品牌  <span class="iconfont">&#xe62f;</span></a>
+            </div>
+            
+            <div class="package_01 class_fix">
+                <img src="../img/package01.jpg" alt="" class="package01">
+                <div class="package_01_tip">
+                    <a href="javascript:;">
+                        <span class="package_01_tip01">
+                            天美意teenmix男女鞋包-最后疯抢
+                        </span>
+                        <div class="package_01_tip02">
+                            <span class="woman_01_num">3</span><span class="woman_01_words">折封顶</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="package_01">
+                <img src="../img/package01.jpg" alt="" class="package01">
+                <div class="package_01_tip">
+                    <a href="javascript:;">
+                        <span class="package_01_tip01">
+                            天美意teenmix男女鞋包-最后疯抢
+                        </span>
+                        <div class="package_01_tip02">
+                            <span class="woman_01_num">3</span><span class="woman_01_words">折封顶</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <input type="button" class="sec_more" value="逛更多母婴品牌" id="kid_more">
+        </div>
+        <!-- 母婴品牌 -->
+
+        <div class="package_sec" id="home_sec">
+            <div class="package_sec-tip">
+                <img src="../img/home.png" alt="" class="home_img">
+                <a href="javascript:;" class="package_sec_nav">全部居家品牌  <span class="iconfont">&#xe62f;</span></a>
+            </div>
+            
+            <div class="package_01 class_fix">
+                <img src="../img/package01.jpg" alt="" class="package01">
+                <div class="package_01_tip">
+                    <a href="javascript:;">
+                        <span class="package_01_tip01">
+                            天美意teenmix男女鞋包-最后疯抢
+                        </span>
+                        <div class="package_01_tip02">
+                            <span class="woman_01_num">3</span><span class="woman_01_words">折封顶</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="package_01">
+                <img src="../img/package01.jpg" alt="" class="package01">
+                <div class="package_01_tip">
+                    <a href="javascript:;">
+                        <span class="package_01_tip01">
+                            天美意teenmix男女鞋包-最后疯抢
+                        </span>
+                        <div class="package_01_tip02">
+                            <span class="woman_01_num">3</span><span class="woman_01_words">折封顶</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <input type="button" class="sec_more" value="逛更多居家品牌" id="home_more">
+        </div>
+        <!-- 居家品牌 -->
+
+        <div class="package_sec" id="inter_sec">
+            <div class="package_sec-tip">
+                <img src="../img/global.png" alt="" class="inter_img">
+                <a href="javascript:;" class="package_sec_nav">全部国际品牌  <span class="iconfont">&#xe62f;</span></a>
+            </div>
+            
+            <div class="package_01 class_fix">
+                <img src="../img/package01.jpg" alt="" class="package01">
+                <div class="package_01_tip">
+                    <a href="javascript:;">
+                        <span class="package_01_tip01">
+                            天美意teenmix男女鞋包-最后疯抢
+                        </span>
+                        <div class="package_01_tip02">
+                            <span class="woman_01_num">3</span><span class="woman_01_words">折封顶</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="package_01">
+                <img src="../img/package01.jpg" alt="" class="package01">
+                <div class="package_01_tip">
+                    <a href="javascript:;">
+                        <span class="package_01_tip01">
+                            天美意teenmix男女鞋包-最后疯抢
+                        </span>
+                        <div class="package_01_tip02">
+                            <span class="woman_01_num">3</span><span class="woman_01_words">折封顶</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <input type="button" class="sec_more" value="逛更多国际品牌" id="inter_more">
+        </div>
+        <!-- 国际品牌 -->
+
+        <div class="package_sec" id="life_sec">
+            <div class="package_sec-tip">
+                <img src="../img/life.png" alt="" class="life_img">
+                <a href="javascript:;" class="package_sec_nav">全部生活品牌  <span class="iconfont">&#xe62f;</span></a>
+            </div>
+            
+            <div class="package_01 class_fix">
+                <img src="../img/package01.jpg" alt="" class="package01">
+                <div class="package_01_tip">
+                    <a href="javascript:;">
+                        <span class="package_01_tip01">
+                            天美意teenmix男女鞋包-最后疯抢
+                        </span>
+                        <div class="package_01_tip02">
+                            <span class="woman_01_num">3</span><span class="woman_01_words">折封顶</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="package_01">
+                <img src="../img/package01.jpg" alt="" class="package01">
+                <div class="package_01_tip">
+                    <a href="javascript:;">
+                        <span class="package_01_tip01">
+                            天美意teenmix男女鞋包-最后疯抢
+                        </span>
+                        <div class="package_01_tip02">
+                            <span class="woman_01_num">3</span><span class="woman_01_words">折封顶</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <input type="button" class="sec_more" value="逛更多生活品牌" id="life_more">
+        </div>
+        <!-- 生活品牌 -->
+
+        <div class="left-nav">
+            <div class="left-nav-list">
+                <a href="#today_DDp" class="woman left-nav-b"><i class="iconfont">&#xe60f;</i><span>女装</span></a>
+                <a href="#woman_more" class="shoe"><i class="iconfont">&#xe603;</i><span>鞋包</span></a>
+                <a href="#pack_more" class="man"><i class="iconfont">&#xe64c;</i><span>男装</span></a>
+                <a href="#man_more" class="run"><i class="iconfont">&#xe601;</i><span>运动</span></a>
+                <a href="#sport_more" class="decoration"><i class="iconfont">&#xe634;</i><span>饰品</span></a>
+                <a href="#watch_more" class="makeup"><i class="iconfont">&#xe71a;</i><span>美妆</span></a>
+                <a href="#beauty_more" class="baby"><i class="iconfont">&#xe619;</i><span>母婴</span></a>
+                <a href="#kid_more" class="living"><i class="iconfont">&#xe627;</i><span>居家</span></a>
+                <a href="#home_more" class="internation"><i class="iconfont">&#xe625;</i><span>国际</span></a>
+                <a href="#inter_more" class="live"><i class="iconfont">&#xe7b0;</i><span>生活</span></a>
+            </div>
+        </div>    
+        <!-- 左边导航栏 -->
+
+    </div>
+    <!-- 品牌分类 -->
+
+    
+
+    <div class="footer main">
+        <img class="footer-img" src="../img/footer_common.png">
+        <div class="footer-tips clearfix">        
+            <dl class="footer-tip1">
+                <dt>服务保障</dt>
+                <dd><a href="javascript:;">正品保证</a></dd>
+                <dd><a href="javascript:;">7天无理由放心退</a></dd>
+                <dd><a href="javascript:;">7x15小时客户服务</a></dd>
+                <dd><a href="javascript:;">7天无理由随心换</a></dd>
+            </dl>
+            <dl class="footer-tip2">
+                <dt>服务保障</dt>
+                <dd><a href="javascript:;">正品保证</a></dd>
+                <dd><a href="javascript:;">7天无理由放心退</a></dd>
+                <dd><a href="javascript:;">7x15小时客户服务</a></dd>
+                <dd><a href="javascript:;">7天无理由随心换</a></dd>
+                <dd><a href="javascript:;">7天无理由随心换</a></dd>
+                <dd><a href="javascript:;">7天无理由随心换</a></dd>
+            </dl>
+            <dl class="footer-tip3">
+                <dt>服务保障</dt>
+                <dd><a href="javascript:;">正品保证</a></dd>
+                <dd><a href="javascript:;">7天无理由放心退</a></dd>
+                <dd><a href="javascript:;">7x15小时客户服务</a></dd>
+                <dd><a href="javascript:;">7天无理由随心换</a></dd>
+                <dd><a href="javascript:;">7天无理由随心换</a></dd>
+            </dl>
+            <dl class="footer-tip4">
+                <dt>服务保障</dt>
+                <dd><a href="javascript:;">正品保证</a></dd>
+                <dd><a href="javascript:;">7天无理由放心退</a></dd>
+                <dd><a href="javascript:;">7x15小时客户服务</a></dd>
+                <dd><a href="javascript:;">7天无理由随心换</a></dd>
+                <dd><a href="javascript:;">7天无理由随心换</a></dd>
+            </dl>
+            <dl class="footer-tip5">
+                <dt>服务保障</dt>
+                <dd><a href="javascript:;">正品保证</a></dd>
+                <dd><a href="javascript:;">7天无理由放心退</a></dd>
+                <dd><a href="javascript:;">7x15小时客户服务</a></dd>
+                <dd><a href="javascript:;">7天无理由随心换</a></dd>
+            </dl>
+            <dl class="footer-tip6">
+                <!-- <dt></dt> -->
+                <dd>唯品会APP二维码</dd>
+                <dd class="footer-tip6-img"><img src="../img/page_bottom.png" alt=""></dd>
+                <dd>下载唯品会移动APP</dd>
+            </dl>
+        </div>
+
+        <div class="footer-list">
+            <a href="javascript:;">关于我们</a>
+            <a href="javascript:;">About us</a>
+            <a href="javascript:;">Investor Relations</a>
+            <a href="javascript:;">媒体报道</a>
+            <a href="javascript:;">品牌招商</a>
+            <a href="javascript:;">隐私条款</a>
+            <a href="javascript:;">唯品诚聘</a>
+            <a href="javascript:;">唯品卡</a></li>
+            <a href="javascript:;">联系我们</a></li>
+            <a href="javascript:;" class="footer-list-last">廉正举报</a>
+        </div>
+
+        <div class="footer-text">
+            <p><span>Copyright © 2008-2020 vip.com，All Rights Reserved  使用本网站即表示接受</span> 
+                <a href="javascript:;">唯品会用户协议</a><span>。版权所有 </span>
+                <a href="javascript:;">广州唯品会电子商务有限公司</a>
+            </p>
+            <p><a href="javascript:;" class="text-1"><img src="../img/police_icon.png"> 粤公网安备 44010302111111号</a>&nbsp;&nbsp;
+                <a href="javascript:;">粤ICP备08114786号</a>
+                <a href="javascript:;">增值业务经营许可证：粤B2-20170777 </a>
+                <a href="javascript:;">网络文化经营许可证：粤网文〔2018〕5030-1743号</a>
+            </p>
+            <p><a href="javascript:;">经营主体证照</a>&nbsp;&nbsp;
+                <a href="javascript:;">风险监测信息</a>
+                <a href="javascript:;">互联网药品信息服务资格证书：（粤）-经营性-2018-0271 </a>
+                <a href="javascript:;"> 网络食品交易第三方平台备案凭证：粤B2-20170777 </a>
+                <a href="javascript:;">医疗器械网络交易服务第三方平台备案凭证：（粤）网械平台备字[2019]第00001号</a>
+            </p>
+        </div>
+
+        <div class="footer-pic">
+            <p class="footer-p">
+                <a href="javascript:;" class="pic1"></a>
+                <a href="javascript:;" class="pic2"></a>
+                <a href="javascript:;" class="pic3"></a>
+                <a href="javascript:;" class="pic4"></a>
+                <a href="javascript:;" class="pic5"></a>
+                <a href="javascript:;" class="pic6"></a>
+                <a href="javascript:;" class="pic7"></a>
+            </p>
+        </div>        
+    </div>
+    <!-- footer -->
+
+    <div class="count_down">
+        <button class="time_btn">x</button>
+        <P class="time_text">距离<span class="shiyi">双十一</span>还有<i class="time_detail"></i></P>
+    </div>
+    <!-- 倒计时 秒杀 -->
+
+    <script src="../lib/jquery.min.js"></script>
+    <script src="../lib/swiper/swiper.js"></script>
+    <script src="../js/index.js"></script>
+</body>
+</html>

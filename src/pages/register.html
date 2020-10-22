@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>注册页面</title>
+    <link rel="stylesheet" href="../css/register.css">
+    <link rel="stylesheet" href="../font/iconfont.css">
+</head>
+<body>
+    <div class="re-head clearfix">
+        <div class="re-logo">
+            <a href="javascript:"></a>
+        </div>
+        <div class="re-tipimg"></div>
+    </div>
+    <!-- 头部 -->
+
+    <div class="re-body">
+        <div class="register-all clearfix">
+            <div class="register-sec ">
+                <div class="register-head">
+                    <h3>会员注册</h3>
+                    <span>已经注册<a href="../pages/login.html">直接登录</a></span>
+                </div>
+                <div class="register-main">
+                    <div class="phone-sec">
+                        <div class="phone-main">
+                            <span class="phone-pic" style="height: 20px;width: 20px;"></span>
+                            <form action="../interface/register.php" method="POST">
+                                <input type="text" class="phone" placeholder="请输入手机号码" name="username" id="username" value="">                                
+                            </form>
+                        </div>
+                        <p class="phone-tip">手机号不能为空</p>
+                        <span class="input-rig1 iconfont" style="color: green; font-weight: bold;">&#xe64b;</span>
+                        <span class="input-err1 iconfont" style="color: red; font-weight: bold;">&#xe608;</span>
+                    </div>
+                    <!-- 输入手机号 -->
+
+                    <div class="test-sec">
+                        <div class="test-main">
+                            <span class="test-pic" style="height: 20px;width: 20px;"></span>
+                            <input type="text" class="test" placeholder="请输入验证码" value="">
+                            <a class="test-btn" href="javascript:;">获取验证码</a>
+                            <span class="input-rig2 iconfont" style="color: green; font-weight: bold;">&#xe64b;</span>
+                            <span class="input-err2 iconfont" style="color: red; font-weight: bold;">&#xe608;</span>
+                        </div>
+                        <p class="test-tip">请输入6位数字手机验证码</p>
+                    </div>
+                    <!-- 输入验证码 -->
+
+                    <div class="psd1-sec">
+                        <div class="psd1-main">
+                            <span class="psd1-pic" style="height: 20px;width: 20px;"></span>
+                            <form action="../interface/register.php" method="POST">
+                                <input type="text" class="psd1" placeholder="密码由8-20位字母，数字和符号组合"  name="password" id="password" value="">
+                            </form>
+                        </div>
+                        <p class="psd1-tip">密码不能为空</p>
+                        <span class="input-rig3 iconfont" style="color: green; font-weight: bold;">&#xe64b;</span>
+                        <span class="input-err3 iconfont" style="color: red; font-weight: bold;">&#xe608;</span>
+                    </div>
+                    <!-- 输入密码 -->
+
+                    <div class="psd2-sec">
+                        <div class="psd2-main">
+                            <span class="psd2-pic" style="height: 20px;width: 20px;"></span>
+                            <input type="text" class="psd2" placeholder="请再次输入上面的密码" value="" id="re_psd">
+                        </div>
+                        <p class="psd2-tip">请输入确认密码</p>
+                        <span class="psd2_li"></span>
+                        <span class="input-rig4 iconfont" style="color: green; font-weight: bold;">&#xe64b;</span>
+                        <span class="input-err4 iconfont" style="color: red; font-weight: bold;">&#xe608;</span>
+                    </div>
+                    <!-- 确认密码 -->
+
+                    <div class="check">
+                        <input type="checkbox" class="check-box">
+                        <div class="list-law">我已阅读并接受以下条款：
+                            <a href="javascript:;">《唯品会服务条款》</a>
+                            <a href="javascript:;">《隐私条款》</a>
+                            <a href="javascript:;">《唯品支付用户服务协议》</a>
+                        </div>
+                        <p class="check-tip">接受服务条款才能注册</p>
+                    </div>
+                    <!-- 协议条款 -->
+
+                    <form action="../interface/register.php" method="POST">
+                        <input type="button" value="立即注册" class="register-btn" id="register-btn">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 注册内容 -->
+
+    <div class="re-footer">
+        <p>Copyright 2008-2020 vip.com，All Rights Reserved ICP证：粤 B2-20080329</p>
+    </div>
+    <!-- 底部 -->
+
+    <script src="../lib/jquery.min.js"></script>
+    <script src="../js/register.js"></script>
+</body>
+</html>

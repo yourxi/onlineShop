@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>登录页面</title>
+    <link rel="stylesheet" href="../css/login.css">
+    <link rel="stylesheet" href="../css/register.css">
+    <link rel="stylesheet" href="../font/iconfont.css">
+</head>
+<body>
+    <div class="re-head clearfix">
+        <div class="re-logo">
+            <a href="javascript:"></a>
+        </div>
+        <div class="re-tipimg"></div>
+    </div>
+    <!-- 头部 -->
+
+    <div class="re-body">
+        <div class="login-all">
+            <div class="login-sec">
+                <div class="login-head">
+                    <div class="login-skin on">扫码登录</div>
+                    <div class="login-user">账户登录</div>
+                </div>
+
+                <!-- 扫码登录 -->
+                <div class="skin-sec active">
+                    <div class="login-img">
+                        <div class="skin-img">
+                            <img src="../img/getQrImage.png" alt="">
+                        </div>
+                    </div>
+    
+                    <!-- 提示信息 -->
+                    <div class="login-tips">
+                        <span class="tip-img"></span>
+                        打开<span class="login-cen">唯品会APP-个人中心</span>，扫一扫登录        
+                    </div>
+                </div>
+
+                <!-- 账号登录 -->
+                <div class="account-sec">
+                    <!-- 手机号输入 -->
+                    <div class="user-sec">
+                        <div class="user-main">
+                            <span class="user-pic" style="height: 20px;width: 20px;"></span>
+                            <form action="../interface/login.php" method="GET">
+                                <input type="text" class="user" placeholder="请输入手机号码" name="username" id="username" value="">
+                            </form>
+                        </div>
+                        <p class="user-tip">请输入手机号</p>
+                        <span class="input-rig1 iconfont" style="color: green; font-weight: bold;">&#xe64b;</span>
+                        <span class="input-err1 iconfont" style="color: red; font-weight: bold;">&#xe608;</span>
+                    </div>
+
+                    <!-- 密码输入 -->
+                    <div class="psd-sec">
+                        <div class="psd-main">
+                            <span class="psd-pic" style="height: 20px;width: 20px;"></span>
+                            <form action="../interface/login.php" method="GET">
+                                <input type="text" class="psd" placeholder="密码由8-20位字母，数字和符号组合"  name="password" id="password" value="">
+                            </form>
+                        </div>
+                        <p class="psd-tip">请输入密码</p>
+                        <span class="input-rig3 iconfont" style="color: green; font-weight: bold;">&#xe64b;</span>
+                        <span class="input-err3 iconfont" style="color: red; font-weight: bold;">&#xe608;</span>
+                    </div>
+                    <!-- 输入密码 -->
+
+                    <!-- 登录按钮 -->
+                    <form action="../interface/login.php" method="GET">
+                        <input type="button" value="登录" class="login-btn" id="login-btn">
+                    </form>
+                </div>
+
+                <!-- 微信图标 -->
+                <div class="wechat-sec">
+                    <a href="javascript:;" class="wechat-pic"></a>
+                </div>
+
+                <!--  -->
+                <div class="login-footer">
+                    <ul class="clearfix">
+                        <li><a href="javascript:;" class="login-xin">新浪微博</a><span>|</span></li>
+                        <li><a href="javascript:;" class="login-qq">QQ</a><span>|</span></li>
+                        <li><a href="javascript:;" class="login-zfb">支付宝</a></li>
+                    </ul>
+                    <a href="javascript:;" class="login-more">更多<i class="iconfont login-more-logo" style="font-size: 7px;">&#xe65c;</i></a>
+                    <a href="javascript:;" class="login-re">免费注册</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 登录内容 -->
+
+    <div class="re-footer">
+        <p>Copyright 2008-2020 vip.com，All Rights Reserved ICP证：粤 B2-20080329</p>
+    </div>
+    <!-- 底部 -->
+
+    <script src="../lib/jquery.min.js"></script>
+    <script src="../js/login.js"></script>
+</body>
+</html>

@@ -1,0 +1,357 @@
+.clearfix::after{
+    content:"";clear:both;display:block;height:0;overflow:hidden;visibility:hidden;
+}
+*{margin:0;padding:0}
+ul li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+/* 头部 */
+.re-head{
+    width: 1000px;
+    height: 100px;
+    margin: 0 auto;
+}
+.re-head .re-logo{
+    width: 125px;
+    height: 100px;
+    background: url("../img/sprites-hash.png") no-repeat;
+    background-position: -308px -55px;
+    float: left;
+}
+.re-tipimg{
+    width: 304px;
+    height: 100px;
+    background: url("../img/sprites-hash.png") no-repeat;
+    float: right;
+}
+
+
+.re-body{
+    width: 100%;
+    height: 650px;
+    background: url("../img/re-back-img.jpg") no-repeat;
+    background-position: -285px 0;
+}
+/* 注册部分 */
+.register-all{
+    width: 1000px;
+    margin: 0 auto;
+}
+.register-sec{
+    width: 360px;
+    border-radius: 2px;
+    background-color: #fff;
+    float: right;
+    margin-top: 50px;
+}
+.register-sec .register-head{
+    width: 300px;
+    padding: 0 30px 0 30px;
+    height: 50px;
+    margin: 0 auto;
+    border-bottom: 1px solid #e0e0e0;
+}
+.register-head h3,.register-head span,.register-head span a{
+    display: inline-block;
+    line-height: 50px;
+}
+.register-head h3{
+    font-size: 18px;
+    color: #666;
+}
+.register-head span{
+    float: right;
+    font-size: 14px;
+    color: #666;
+}
+.register-head span a{
+    font-size: 14px;
+    color: #f10180;
+}
+.register-main{
+    width: 300px;
+    margin-top: 30px;
+    padding: 0 30px 0 30px;
+}
+
+
+/* 输入手机 */
+.phone-sec{
+    width: 300px;
+    position: relative;
+    height: 69px;
+}
+.phone-sec .phone-main{
+    width: 300px;
+    height: 46px;
+    border: 1px solid #b2b2b2;
+    position: relative;
+    border-radius: 3px;
+}
+.phone-sec .phone-main .phone{
+    padding-left: 40px;
+    width: 260px;
+    height: 33px;
+    line-height: 33px;
+    margin-top: 8px;
+    outline: none;
+    border: none;
+}
+.phone-sec .phone-tip{
+    width: 300px;
+    height: 19px;
+    line-height: 19px;
+    font-size: 12px;
+    color: #ec5042;
+    position: relative;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    display: none;
+}
+.phone-main .phone-pic{
+    background-image: url("../img/sprites-hash.png");
+    background-position: -456px -221px;
+    width: 20px;
+    height: 20px;
+    position: absolute;top: 13px;left: 11px;
+}
+.input-rig1, .input-rig2, .input-rig3, .input-rig4{
+    position: absolute;
+    right: 1px;
+    top: 3px;
+    z-index: 3;
+    padding-right: 10px;
+    padding-left: 5px;
+    line-height: 44px;
+    font-size: 17px;
+    display: none;
+}
+.input-err1,.input-err2,.input-err3,.input-err4 {
+    position: absolute;
+    right: 1px;
+    top: 3px;
+    z-index: 3;
+    padding-right: 10px;
+    padding-left: 5px;
+    line-height: 44px;
+    font-size: 17px;
+    display: none;
+}
+/* 确认验证码 */
+.test-sec{
+    position: relative;
+    width: 300px;
+    height: 69px;
+}
+.test-sec .test-main{
+    width: 158px;
+    height: 46px;
+    border: 1px solid #b2b2b2;
+    position: relative;
+    border-radius: 3px;
+    position: relative;
+    display: inline-block;
+}
+.test-sec .test-main .test{
+    padding-left: 40px;
+    width: 115px;
+    height: 33px;
+    line-height: 33px;
+    margin-top: 8px;
+    outline: none;
+    border: none;
+}
+.test-sec .test-tip{
+    width: 300px;
+    height: 19px;
+    line-height: 19px;
+    font-size: 12px;
+    color: #ec5042;
+    position: relative;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    display: none;
+}
+.test-main .test-pic{
+    background-image: url("../img/sprites-hash.png");
+    background-position: -528px -221px;
+    width: 20px;
+    height: 20px;
+    position: absolute;top: 13px;left: 11px;
+}
+.test-main .test-btn{
+    width: 132px;
+    height: 46px;
+    border:1px solid #ffbee0;
+    background-color: #fcdee8;
+    text-align: center;
+    display: inline-block;
+    line-height: 46px;
+    font-size: 14px;
+    color: #e00078;
+    position: absolute;
+    top: -1px;
+    right: -145px;
+}
+.test-main .test-btn:hover{
+    background-color: #fbf5f7;
+}
+
+/* 输入密码 */
+.psd1-sec{
+    width: 300px;
+    position: relative;
+    height: 69px;
+}
+.psd1-sec .psd1-main{
+    width: 300px;
+    height: 46px;
+    border: 1px solid #b2b2b2;
+    position: relative;
+    border-radius: 3px;
+}
+.psd1-sec .psd1-main .psd1{
+    padding-left: 40px;
+    width: 260px;
+    height: 33px;
+    line-height: 33px;
+    margin-top: 8px;
+    outline: none;
+    border: none;
+}
+.psd1-sec .psd1-tip{
+    width: 300px;
+    height: 19px;
+    line-height: 19px;
+    font-size: 12px;
+    color: #ec5042;
+    position: relative;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    display: none;
+}
+.psd1-main .psd1-pic{
+    background-image: url("../img/sprites-hash.png");
+    background-position: -528px -221px;
+    width: 20px;
+    height: 20px;
+    position: absolute;top: 13px;left: 11px;
+}
+/* 确认密码 */
+.psd2-sec{
+    width: 300px;
+    position: relative;
+    height: 69px;
+}
+.psd2-sec .psd2-main{
+    width: 302px;
+    height: 46px;
+    border: 1px solid #b2b2b2;
+    position: relative;
+    border-radius: 3px;
+}
+.psd2-sec .psd2-main .psd2{
+    padding-left: 40px;
+    width: 260px;
+    height: 33px;
+    line-height: 33px;
+    margin-top: 8px;
+    outline: none;
+    border: none;
+}
+.psd2-sec .psd2-tip{
+    width: 300px;
+    height: 19px;
+    line-height: 19px;
+    font-size: 12px;
+    color: #ec5042;
+    position: relative;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    display: none;
+}
+
+.psd2-sec .psd2_li{
+    width: 300px;
+    height: 19px;
+    line-height: 19px;
+    font-size: 12px;
+    color: #ec5042;
+    position: relative;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    display: none;
+}
+.psd2-main .psd2-pic{
+    background-image: url("../img/sprites-hash.png");
+    background-position: -528px -221px;
+    width: 20px;
+    height: 20px;
+    position: absolute;top: 13px;left: 11px;
+}
+
+/* 协议条款 */
+.register-main .check{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: 12px;
+    vertical-align: middle;
+    height: 59px;
+}
+.check a{
+    font-weight: lighter;
+}
+.check .list-law{
+    width: 276px;
+    line-height: 1.5;
+    display: inline-block;
+    margin-left: 4px;
+}
+.check .check-box{
+    position: relative;
+    top: -16px;
+}
+.check .check-tip{
+    width: 300px;
+    height: 19px;
+    line-height: 19px;
+    font-size: 12px;
+    color: #ec5042;
+    position: relative;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    display: none;
+}
+
+/* 立即注册 */
+.register-btn{
+    border: 1px solid #d80173;
+    outline: none;
+    width: 298px;
+    height: 40px;
+    background-color: #d80173;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    line-height: 40px;
+    margin-bottom: 40px;
+    cursor: pointer;
+}
+
+
+/* 底部 */
+.re-footer{
+    width: 1000px;
+    height: 78px;
+    line-height: 78px;
+    margin:0 auto;
+}
+.re-footer p{
+    color: #666;
+    text-align: center;
+    font-size: 10px;
+}
